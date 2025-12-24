@@ -1,0 +1,25 @@
+/* 1. Prevent the whole page from scrolling */
+body, html {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  /* 2. Make the container fill the screen and display side-by-side */
+  .split-container {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+    width: 100vw;  /* Full viewport width */
+  }
+  
+  /* 3. Style both columns to be equal and scrollable */
+  .column {
+    flex: 1;           /* Each column takes 50% width */
+    height: 100%;      /* Fill the container height */
+    overflow-y: auto;  /* Show scrollbar only if content is long */
+    padding: 20px;
+  }
+  
+  /* 4. Optional: Add different colors to see the split */
+  .left-side { background-color: #f0f0f0; }
+  .right-side { background-color: #ffffff; }

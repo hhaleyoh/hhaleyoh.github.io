@@ -1,3 +1,3 @@
 # hhaleyoh.github.io
 
-testing testing
+Repository for my personal site.
