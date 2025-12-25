@@ -1,0 +1,68 @@
+body, html {
+    font-family: "Courier";
+    font-size: 18px;
+    line-height: 1.4;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    letter-spacing: -0.05em;
+    background-color: #FAF9F6;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.column1 {
+    float: left;
+    width: 25%;
+    padding: 12px;
+    min-height: 300px;
+}
+
+.column2 {
+    float: left;
+    width: 75%;
+    padding: 12px;
+    min-height: 300px;
+}
+
+.column1, .column2 {
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.rows:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.highlight-link {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.0s;
+    z-index: 10;
+    position: relative;
+    cursor: pointer;
+}
+
+.highlight-link:hover {
+    font-style: italic;
+    color: #f77f00;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .column1 {
+        width: 100%;
+    }
+
+    .column2 {
+        width: 100%;
+    }
+}

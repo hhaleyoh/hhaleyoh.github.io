@@ -1,0 +1,37 @@
+.dropdown summary {
+    list-style: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.dropdown summary::-webkit-details-marker {
+    display: none;
+}
+
+.dropdown-panel {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-left: 2px solid #FCA311;
+    margin-top: 10px;
+}
+
+.dropdown summary::before {
+    content: "> ";
+    display: inline-block;
+    font-style: normal;
+    display: inline-block;
+    width: 20px;
+    color: #2b2d42;
+}
+
+.dropdown[open] summary::before {
+    content: "v ";
+    color: #FCA311;
+    
+}
+
+.dropdown-panel {
+    padding-top: 0px;    /* Adjust this number to your liking */
+    padding-bottom: 0px; /* Adjust this number to your liking */
+    margin: 0;           /* Ensures the box itself isn't pushing away */
+}
