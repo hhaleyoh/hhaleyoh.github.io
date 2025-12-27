@@ -1,0 +1,13 @@
+body, html {
+    font-family: "Courier";
+    font-size: 18px;
+    line-height: 1.4;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    letter-spacing: -0.04em;
+    background-color: #000000;
+    color: #FAF9F6;
+
+}
+

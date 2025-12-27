@@ -5,8 +5,9 @@ body, html {
     height: 100%;
     width: 100%;
     overflow: hidden;
-    letter-spacing: -0.05em;
+    letter-spacing: -0.04em;
     background-color: #FAF9F6;
+    color: #2b2d42;
 
 }
 
@@ -34,6 +35,17 @@ body, html {
     height: 100vh;
     overflow-y: scroll;
     overflow-x: hidden;
+}
+
+.experience-text {
+    float: left;
+    width: 55%;
+}
+
+.experience-content {
+    width: 45%;
+    vertical-align: top;
+    display: inline-block;
 }
 
 .rows:after {

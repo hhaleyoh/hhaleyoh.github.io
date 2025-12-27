@@ -10,9 +10,11 @@
 
 .dropdown-panel {
     padding: 15px;
-    background-color: rgba(255, 255, 255, 0.1);
     border-left: 2px solid #FCA311;
     margin-top: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0;
 }
 
 .dropdown summary::before {
@@ -30,8 +32,11 @@
     
 }
 
-.dropdown-panel {
-    padding-top: 0px;    /* Adjust this number to your liking */
-    padding-bottom: 0px; /* Adjust this number to your liking */
-    margin: 0;           /* Ensures the box itself isn't pushing away */
+.settings-panel {
+    padding: 15px;
+    border-left: 2px solid #FCA311;
+    margin-top: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0;
 }
